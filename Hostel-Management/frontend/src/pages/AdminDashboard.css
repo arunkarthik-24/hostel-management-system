@@ -1,0 +1,139 @@
+/* Page background */
+.admin-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f7fb, #e8eef7);
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* PG Header */
+.pg-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pg-header h1 {
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #1e3c72;
+}
+
+.pg-header p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Logout button */
+.logout-btn {
+  float: right;
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #c9302c;
+}
+
+/* Section titles */
+.section-title {
+  margin: 30px 0 15px;
+  color: #1e3c72;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Cards container */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  flex: 1;
+  min-width: 220px;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.dashboard-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e3c72;
+}
+
+/* Inputs & Selects */
+input, select {
+  padding: 10px;
+  width: 260px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.primary-btn {
+  background: #1e3c72;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #16325c;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+th {
+  background: #1e3c72;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f1f5ff;
+}
+
+/* Divider */
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}

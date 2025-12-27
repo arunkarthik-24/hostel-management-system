@@ -1,0 +1,17 @@
+.pg-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pg-header h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #1e3c72;
+  margin-bottom: 5px;
+}
+
+.pg-header p {
+  font-size: 14px;
+  color: #555;
+}

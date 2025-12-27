@@ -1,0 +1,80 @@
+/* Page background */
+.register-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #2a5298, #1e3c72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card */
+.register-card {
+  background: #ffffff;
+  padding: 40px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* PG title */
+.pg-title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #1e3c72;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+.pg-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.register-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+.register-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a5298;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-card button:hover {
+  background-color: #1e3c72;
+}
+
+/* Login link */
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-text span {
+  color: #2a5298;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-text span:hover {
+  text-decoration: underline;
+}
